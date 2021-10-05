@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Col, Container, Row, Button, Card, Form, Alert  } from 'react-bootstrap'
 import * as constants from '../shared/Constants'
-import * as master from '../shared/MasterData'
 import { CircularProgress } from '@material-ui/core'
 import { CommonService } from '../shared/CommonService'
 import { useHistory } from "react-router";
 import ResetPwd from './ResetPwd'
+
 
 const cs = new CommonService();
 

@@ -154,7 +154,6 @@ const AllJobs = () => {
 
                     </Row>                
                 </Container>
-                
                 <Modal visible={isLoading || isJobLoading } width="0" height="0" effect="fadeInUp">
                     <Row>
                         <Col className = "d-flex justify-content-start" md = {6}>
